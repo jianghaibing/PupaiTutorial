@@ -16,6 +16,16 @@
 		09103C431CAF7D8900B9F227 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09103C411CAF7D8900B9F227 /* LaunchScreen.storyboard */; };
 		09103C4C1CAF828F00B9F227 /* QPTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 09103C4B1CAF828F00B9F227 /* QPTabbar.m */; };
 		09103C4F1CAF8CF800B9F227 /* MainTarBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09103C4E1CAF8CF800B9F227 /* MainTarBarController.m */; };
+		09103C5A1CAFA31D00B9F227 /* ALBBQuPaiPlugin.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 09103C581CAFA31D00B9F227 /* ALBBQuPaiPlugin.bundle */; };
+		09103C5B1CAFA31D00B9F227 /* ALBBQuPaiPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09103C591CAFA31D00B9F227 /* ALBBQuPaiPlugin.framework */; };
+		09103C5D1CAFA3B200B9F227 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09103C5C1CAFA3B200B9F227 /* OpenGLES.framework */; };
+		09103C5F1CAFA3BD00B9F227 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09103C5E1CAFA3BD00B9F227 /* QuartzCore.framework */; };
+		09103C611CAFA3C900B9F227 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09103C601CAFA3C900B9F227 /* CoreVideo.framework */; };
+		09103C631CAFA3D000B9F227 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09103C621CAFA3D000B9F227 /* AVFoundation.framework */; };
+		09103C651CAFA3D600B9F227 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09103C641CAFA3D600B9F227 /* Foundation.framework */; };
+		09103C671CAFA3DD00B9F227 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09103C661CAFA3DD00B9F227 /* CoreGraphics.framework */; };
+		09103C691CAFA3E900B9F227 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09103C681CAFA3E900B9F227 /* CoreMotion.framework */; };
+		09103C6B1CAFA48200B9F227 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09103C6A1CAFA48200B9F227 /* CoreMedia.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +45,16 @@
 		09103C4B1CAF828F00B9F227 /* QPTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QPTabbar.m; sourceTree = "<group>"; };
 		09103C4D1CAF8CF800B9F227 /* MainTarBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTarBarController.h; sourceTree = "<group>"; };
 		09103C4E1CAF8CF800B9F227 /* MainTarBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTarBarController.m; sourceTree = "<group>"; };
+		09103C581CAFA31D00B9F227 /* ALBBQuPaiPlugin.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ALBBQuPaiPlugin.bundle; sourceTree = "<group>"; };
+		09103C591CAFA31D00B9F227 /* ALBBQuPaiPlugin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ALBBQuPaiPlugin.framework; sourceTree = "<group>"; };
+		09103C5C1CAFA3B200B9F227 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		09103C5E1CAFA3BD00B9F227 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		09103C601CAFA3C900B9F227 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		09103C621CAFA3D000B9F227 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		09103C641CAFA3D600B9F227 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		09103C661CAFA3DD00B9F227 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		09103C681CAFA3E900B9F227 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		09103C6A1CAFA48200B9F227 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +62,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09103C6B1CAFA48200B9F227 /* CoreMedia.framework in Frameworks */,
+				09103C691CAFA3E900B9F227 /* CoreMotion.framework in Frameworks */,
+				09103C671CAFA3DD00B9F227 /* CoreGraphics.framework in Frameworks */,
+				09103C651CAFA3D600B9F227 /* Foundation.framework in Frameworks */,
+				09103C631CAFA3D000B9F227 /* AVFoundation.framework in Frameworks */,
+				09103C611CAFA3C900B9F227 /* CoreVideo.framework in Frameworks */,
+				09103C5F1CAFA3BD00B9F227 /* QuartzCore.framework in Frameworks */,
+				09103C5D1CAFA3B200B9F227 /* OpenGLES.framework in Frameworks */,
+				09103C5B1CAFA31D00B9F227 /* ALBBQuPaiPlugin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +80,15 @@
 		09103C241CAF7D8800B9F227 = {
 			isa = PBXGroup;
 			children = (
+				09103C6A1CAFA48200B9F227 /* CoreMedia.framework */,
+				09103C681CAFA3E900B9F227 /* CoreMotion.framework */,
+				09103C661CAFA3DD00B9F227 /* CoreGraphics.framework */,
+				09103C641CAFA3D600B9F227 /* Foundation.framework */,
+				09103C621CAFA3D000B9F227 /* AVFoundation.framework */,
+				09103C601CAFA3C900B9F227 /* CoreVideo.framework */,
+				09103C5E1CAFA3BD00B9F227 /* QuartzCore.framework */,
+				09103C5C1CAFA3B200B9F227 /* OpenGLES.framework */,
+				09103C571CAFA31D00B9F227 /* sdk */,
 				09103C2F1CAF7D8900B9F227 /* PupaiTutorial */,
 				09103C2E1CAF7D8900B9F227 /* Products */,
 			);
@@ -92,6 +130,15 @@
 				09103C311CAF7D8900B9F227 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09103C571CAFA31D00B9F227 /* sdk */ = {
+			isa = PBXGroup;
+			children = (
+				09103C581CAFA31D00B9F227 /* ALBBQuPaiPlugin.bundle */,
+				09103C591CAFA31D00B9F227 /* ALBBQuPaiPlugin.framework */,
+			);
+			path = sdk;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +201,7 @@
 			files = (
 				09103C431CAF7D8900B9F227 /* LaunchScreen.storyboard in Resources */,
 				09103C401CAF7D8900B9F227 /* Assets.xcassets in Resources */,
+				09103C5A1CAFA31D00B9F227 /* ALBBQuPaiPlugin.bundle in Resources */,
 				09103C3E1CAF7D8900B9F227 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,8 +331,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/sdk",
+				);
 				INFOPLIST_FILE = PupaiTutorial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.danqoo.PupaiTutorial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -295,8 +348,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/sdk",
+				);
 				INFOPLIST_FILE = PupaiTutorial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.danqoo.PupaiTutorial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
