@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <ALBBQuPaiPlugin/ALBBQuPaiPlugin.h>
 
 @interface AppDelegate ()
 
@@ -16,7 +17,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    [[QupaiSDK shared] registerAppWithKey:@"205df2511f21c94" secret:@"1da82bd9e0764bf591e8be002191bf9c" space:@"10010" success:^(NSString *accessToken) {
+        [[NSUserDefaults standardUserDefaults] setObject:accessToken forKey:@"accessToken"];
+    } failure:^(NSError *error) {
+        
+    }];
+    
     return YES;
 }
 
